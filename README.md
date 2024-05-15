@@ -4,13 +4,13 @@ The dataset can be accessed at the following link:
 https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
 
 
-## Concepts
+## Metrics
 - **Support**
-Support measures how frequently an association rule happens in a dataset.
+  - Support measures how frequently an association rule happens in a dataset.
 
 - **Confidence**
   - Confidence measures how strong an association rule is.
-  - That is to say, in market basket analysis terms, how likely is a second product to be present in the basket if the first is.
+  - That is to say, in market basket analysis terms, how likely is a second product to be present in the basket if the first is?
   - Confidence(A→B) = Support(A∪B)/Support(A)×100%
   - Confidence(B→A) = Support(A∪B)/Support(B)×100%
 
@@ -37,5 +37,5 @@ Support measures how frequently an association rule happens in a dataset.
   - If Conviction < 1, it indicates a negative association between A and B.
 
 - **Zhang’s metric**
-  - Measure that looks not only at positive associations, but also negative. It can says, for instances, if buying A makes someone NOT buy B.
+  - Measure that looks not only at positive associations but also negative. It can be said, for instance, that buying A makes someone NOT buy B.
   - Value: < 0 if there’s a negative association (dissociation), > 0 if there’s a positive association where -1 and 1 are the extreme values.
