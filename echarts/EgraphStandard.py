@@ -1,4 +1,4 @@
-from .Egraph import Egraph
+from .core.Egraph import Egraph
 
 
 class EgraphStandard(Egraph):

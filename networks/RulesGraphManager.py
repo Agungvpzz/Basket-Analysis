@@ -1,7 +1,7 @@
 import pandas as pd
 
-from .Graph import GraphInterface, Graph
-from .GraphData import GraphDataInterface, GraphData
+from .core.Graph import GraphInterface, Graph
+from .core.GraphData import GraphDataInterface, GraphData
 
 
 class RulesGraphManager:
