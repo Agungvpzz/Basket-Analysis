@@ -42,6 +42,4 @@ class JupyterEcharts:
     
     @staticmethod
     def show(option, width="800px", height="800px") -> None:
-        from IPython.display import display
-        
-        display(JupyterEcharts._echarts(option, width, height))
+        return JupyterEcharts._echarts(option, width, height)
