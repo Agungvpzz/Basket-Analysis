@@ -11,6 +11,9 @@ This Online Retail II data set contains all the transactions occurring for a UK-
 The dataset can be accessed at the following link:
 https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
 
+## Business Goals
+Market business analysis aims to provide businesses with a comprehensive understanding of their market environment, competition, opportunities, threats, and customer behavior to inform strategic decision-making.
+
 ## Objectives
 1. **Association Rule Discovery**: Identify associations and correlations among products or items in a dataset. Discover rules that indicate the likelihood of certain items being bought together.
 2. **Cross-Selling Opportunities**: Uncover opportunities for cross-selling by understanding which products are frequently purchased together.
@@ -57,7 +60,8 @@ https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
 
 
 <h2>Product Heatmap Layout</h2>
-Selected category: "RED STRIPE CERAMIC DRAWER KNOB"
+Selected category: "RED STRIPE CERAMIC DRAWER KNOB" <br>
+The heatmap clearly indicates that "RED STRIPE" is the most interconnected product, showing strong support values with several other products. The implications are we need to put a RED STRIPE on the upper shelf and bundle it with other products at a special price.
 <div align=center>
 
   ![image](https://github.com/Agungvpzz/Basket-Analysis/assets/48642326/743f627d-c5a5-4264-9b0c-0ef510b708b5)  
