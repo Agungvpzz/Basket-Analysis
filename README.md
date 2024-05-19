@@ -1,3 +1,6 @@
+> [!NOTE]
+> If an error occurs with the opened Jupyter Notebook on GitHub, copy and paste the notebook into this instead: https://nbviewer.org/
+
 # Basket Analysis
 Market Basket Analysis is a data mining technique employed to discover relationships and patterns within large datasets, particularly in the context of market analysis. By identifying frequently co-occurring items in transactions, businesses can gain valuable insights into customer behavior, optimize product placement, and enhance overall marketing strategies.
 
