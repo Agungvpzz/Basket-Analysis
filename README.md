@@ -1,12 +1,12 @@
 > [!NOTE]
-> If an error occurs with the opened Jupyter Notebook on GitHub, copy and paste the notebook into this instead: https://nbviewer.org/
+> If you encounter an error with the Jupyter Notebook on GitHub, please use this link to open it [nbviewer](https://nbviewer.org/github/Agungvpzz/Basket-Analysis/blob/main/Basket%20Analysis.ipynb)
 
 # Basket Analysis
 ## Introduction
 Market Basket Analysis is a data mining technique employed to discover relationships and patterns within large datasets, particularly in the context of market analysis. By identifying frequently co-occurring items in transactions, businesses can gain valuable insights into customer behavior, optimize product placement, and enhance overall marketing strategies.
 
 ## Data Understanding
-This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion giftware. Many customers of the company are wholesalers.
+This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011. The company mainly sells unique all-occasion giftware. Many customers of the company are wholesalers.
 
 The dataset can be accessed at the following link:
 https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/
@@ -47,14 +47,15 @@ Market business analysis aims to provide businesses with a comprehensive underst
 </div>
   
 <h2>Network Profile</h2>
-Using the Echarts network, we perform profiling to identify which groups of products are frequently purchased together. For the grouping method, we use nx.community.greedy_modularity_communities.
-<div align=center>    
+Using the Echarts network, we perform profiling to identify which groups of products are frequently purchased together. For the grouping method, we use nx.community.greedy_modularity_communities.<br><br>
+<div align=center>
   
   ![image](https://github.com/Agungvpzz/Basket-Analysis/assets/48642326/ca25a6b2-51db-4fda-a3ed-dbba479f4c84)
 </div>
 
 
-<h2>Bundling Products with minimum confidence 50%</h2>
+<h2>Bundling Products with a Minimum Mean Confidence of 50%</h2>
+In this setting, with the mean confidence threshold at 50%, products like 'WHITE HANGING HEART T-LIGHT HOLDER' and 'RED HANGING HEART T-LIGHT HOLDER', despite having high support, did not appear as a result of the cross-selling products algorithm. This is because we aim to identify pairs or groups of products that are commonly purchased together, rather than individual popular items or items that are generally popular. <br><br>
 <div align=center>
   
   ![image](https://github.com/Agungvpzz/Basket-Analysis/assets/48642326/4bdb9878-5aa2-4cdd-a580-15bd66cb7911)
@@ -64,7 +65,7 @@ Using the Echarts network, we perform profiling to identify which groups of prod
 
 <h2>Product Heatmap Layout</h2>
 Selected category: "RED STRIPE CERAMIC DRAWER KNOB" <br>
-The heatmap clearly indicates that "RED STRIPE" is the most interconnected product, showing strong support values with several other products. The implications are we need to put a RED STRIPE on the upper shelf and bundle it with other products at a special price.
+The heatmap clearly indicates that "RED STRIPE" is the most interconnected product, showing strong support values with several other products. The implications are we need to put a RED STRIPE on the upper shelf and bundle it with other products at a special price. <br><br>
 <div align=center>
 
   ![image](https://github.com/Agungvpzz/Basket-Analysis/assets/48642326/743f627d-c5a5-4264-9b0c-0ef510b708b5)  
