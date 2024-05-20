@@ -30,6 +30,8 @@ Market business analysis aims to provide businesses with a comprehensive underst
 - Maximum Combination Length
   - We set the maximum combination length to 2 items.
   - This choice is made to focus on pairs of items, allowing for a more targeted analysis of co-occurrences.
+- Minimum Occurrence Product
+  - We set the minimum support threshold at 1% to focus on the most commonly purchased products.
 - Minimum Co-Occurrence Support Threshold
   - A minimum co-occurrence support threshold of 1% is established to filter out infrequent itemsets.
   - This ensures that only associations with a significant presence in the dataset are considered.
@@ -45,7 +47,8 @@ Market business analysis aims to provide businesses with a comprehensive underst
 </div>
   
 <h2>Network Profile</h2>
-<div align=center>
+Using the Echarts network, we perform profiling to identify which groups of products are frequently purchased together. For the grouping method, we use nx.community.greedy_modularity_communities.
+<div align=center>    
   
   ![image](https://github.com/Agungvpzz/Basket-Analysis/assets/48642326/ca25a6b2-51db-4fda-a3ed-dbba479f4c84)
 </div>
